@@ -1,3 +1,5 @@
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Insight707/indigosoft-test)
+
 # IndigosoftTest
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
