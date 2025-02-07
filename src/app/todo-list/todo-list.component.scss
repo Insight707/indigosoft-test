@@ -1,0 +1,27 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: 200;
+
+    .id {
+      font-size: 1.5em;
+    }
+
+    .todo-description {
+      display: flex;
+      flex-direction: column;
+      gap: .5em;
+
+      .specific {
+        font-weight: bold;
+        font-size: .8em;
+      }
+    }
+  }
+}

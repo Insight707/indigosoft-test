@@ -1,0 +1,16 @@
+<h3 mat-dialog-title>Enter ToDo summary:</h3>
+<mat-dialog-content>
+  <mat-form-field style="width: 100%">
+    <input matInput [(ngModel)]="toDoSummary">
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="close()">
+    Cancel
+  </button>
+
+  <button mat-flat-button (click)="close(toDoSummary())">
+    Create
+  </button>
+</mat-dialog-actions>
