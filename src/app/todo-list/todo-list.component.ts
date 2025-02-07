@@ -39,8 +39,13 @@ export class TodoListComponent {
 
   public onAddBtnClick(): void {
     this.dialog.open(TodoCreateDialogComponent, {
-      minWidth: '800px'
+      width: '100%',
+      maxWidth: '500px'
     }).afterClosed().subscribe((todoName: any) => {
+      if (!todoName) {
+        return;
+      }
+
       this.todoApiService.addTask({
         todo: todoName,
         userId: 5,
